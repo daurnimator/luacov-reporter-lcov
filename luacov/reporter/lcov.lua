@@ -10,7 +10,7 @@ if md5_ok and md5.sumhexa then -- lmd5 by lhf
 elseif md5_ok and md5.digest then -- md5 by roberto
 	md5sumhex = md5.digest
 else
-	local luaossl_ok, digest = pcall(require "openssl.digest")
+	local luaossl_ok, digest = pcall(require, "openssl.digest")
 	if luaossl_ok then
 		function md5sumhex(str)
 			return (digest.new("md5"):final(str)):gsub(".", function(c)
