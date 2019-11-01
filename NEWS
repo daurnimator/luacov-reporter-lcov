@@ -1,3 +1,8 @@
+0.2 - 2019-11-01
+
+  - Fix failure when md5 library is not available (#1)
+
+
 0.1 - 2018-07-28
 
   - Initial release
