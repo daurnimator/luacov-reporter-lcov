@@ -1,5 +1,5 @@
 package = "luacov-reporter-lcov"
-version = "scm-0"
+version = "0.2-0"
 
 description = {
 	summary = "A luacov reporter for use with lcov";
@@ -8,7 +8,8 @@ description = {
 }
 
 source = {
-	url = "git+https://github.com/daurnimator/luacov-reporter-lcov.git";
+	url = "https://github.com/daurnimator/luacov-reporter-lcov/archive/v0.2.zip";
+	dir = "luacov-reporter-lcov-0.2";
 }
 
 dependencies = {
